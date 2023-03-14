@@ -1,16 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class enemyHealth : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]public float maxHealth;
-    float currenHealth;
+    float currentHealth;
+
+    // cac bien de tao thanh mau enemy
+    //public Slider EnemyHealthSlider;
 
     void Start()
     {
-        currenHealth = maxHealth;
+        currentHealth = maxHealth;
+        //EnemyHealthSlider.maxValue = maxHealth;
+        //EnemyHealthSlider.value = maxHealth;
+        
     }
 
     // Update is called once per frame
@@ -21,8 +28,11 @@ public class enemyHealth : MonoBehaviour
 
     public void addDamage(float damage)
     {
-        currenHealth -= damage;
-        if (currenHealth <= 0)
+        //EnemyHealthSlider.gameObject.SetActive(true);
+        currentHealth -= damage;
+        //EnemyHealthSlider.value=currentHealth;
+
+        if (currentHealth <= 0)
         {
             makeDead();
             Debug.Log(message: "detroyed");

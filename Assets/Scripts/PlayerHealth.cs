@@ -38,6 +38,7 @@ public class PlayerHealth : MonoBehaviour
         playerHealthSlider.value = currentHealth;
 
         if (currentHealth <= 0) makeDead();
+
     }
 
     void makeDead()
