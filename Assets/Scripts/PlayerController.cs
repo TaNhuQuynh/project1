@@ -113,7 +113,9 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log(message: "dead");
         myanim.SetBool("die", true);
+        Destroy(gameObject,3);
     }
+    
 
     void attack()
     {
