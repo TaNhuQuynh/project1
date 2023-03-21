@@ -1494,7 +1494,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345295705}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 31.5, y: 3.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1516,7 +1516,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0750289, y: -0.018757045}
+  m_Offset: {x: 0.1092844, y: -0.14721209}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1527,7 +1527,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.998866, y: 1.3997732}
+  m_Size: {x: 3.7656994, y: 1.6566833}
   m_EdgeRadius: 0
 --- !u!50 &345295708
 Rigidbody2D:
@@ -2235,11 +2235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5045262003758324366, guid: 245c5f6ee0a1d0a4e9c242d303e2fdbf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.45
+      value: -5.04
       objectReference: {fileID: 0}
     - target: {fileID: 5045262003758324366, guid: 245c5f6ee0a1d0a4e9c242d303e2fdbf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.43
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 5045262003758324366, guid: 245c5f6ee0a1d0a4e9c242d303e2fdbf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7290,7 +7290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3721512439325082075, guid: 36d0b81d24b947d4695bd15628f79ac9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.3
+      value: -0.29999995
       objectReference: {fileID: 0}
     - target: {fileID: 3721512439325082075, guid: 36d0b81d24b947d4695bd15628f79ac9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7330,6 +7330,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3721512439325082076, guid: 36d0b81d24b947d4695bd15628f79ac9, type: 3}
       propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721512439325082076, guid: 36d0b81d24b947d4695bd15628f79ac9, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3721512439325082078, guid: 36d0b81d24b947d4695bd15628f79ac9, type: 3}

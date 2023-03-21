@@ -24,17 +24,17 @@ public class enemyMovemenController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (Time.time > nextFlip)
         {
             nextFlip = Time.time + facingTime;
             flip();
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

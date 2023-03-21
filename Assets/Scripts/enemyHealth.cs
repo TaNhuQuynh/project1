@@ -35,7 +35,7 @@ public class enemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             makeDead();
-            Debug.Log(message: "detroyed");
+            Debug.Log(message: "DESTROYED");
         }
     }
 
